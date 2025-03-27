@@ -1,0 +1,51 @@
+@media (max-width: 750px){
+
+    body{
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg')center center no-repeat;
+        background-size: cover;
+    }
+    .main{
+        flex-direction: column;
+    }
+
+    .main .illustration{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .illustration .image{
+        width: 80%;
+    }
+    
+    .main .container-about{
+        margin-top: 40px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .main .container-about .about{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .main .container-about .title-about{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .main .container-about a{
+        width: 300px;
+        margin: 50px 0 0;
+    }
+
+    .social{        
+        justify-content: center;
+        padding: 0;
+        margin: 100px 0 0;
+    }
+}
